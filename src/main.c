@@ -38,7 +38,7 @@ int main(void)
      * The MODER reset value is already input (00), but do it explicitly
      * so the code is self-documenting.
      * ------------------------------------------------------------------ */
-    gpio_config_input(B1_PORT, B1_PIN);
+    gpio_config_input( B1_PORT , B1_PIN);
 
     /* ------------------------------------------------------------------
      * Main polling loop
